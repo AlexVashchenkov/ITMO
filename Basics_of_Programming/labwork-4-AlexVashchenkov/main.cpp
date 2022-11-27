@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cstring>
-#include "functions.h"
+#include "lib/functions.h"
 
 int main(int argc, char* argv[]) {
     const char* shortNames[] = {"-c", "-l", "-x", "-a", "-d", "-A"};

@@ -3,4 +3,4 @@ project(labwork_4_AlexVashchenkov)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(archive main.cpp functions.cpp)
+add_executable(archive main.cpp lib/functions.cpp)
