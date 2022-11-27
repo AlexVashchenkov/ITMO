@@ -3,7 +3,4 @@ project(labwork_4_AlexVashchenkov)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
-add_executable(fileOperations fileOperations.cpp)
-add_executable(archiveWriting archiveWriting.cpp)
-add_executable(archiveReading archiveReading.cpp)
+add_executable(archive main.cpp functions.cpp)
